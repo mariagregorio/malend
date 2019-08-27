@@ -1,0 +1,214 @@
+body {
+  color: #222;
+}
+
+button:focus {outline:0;}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0,0,0,.5);
+  border:0;
+  font-size:1.3rem;
+}
+
+.nav {
+  position: relative;
+}
+.nav .navbar-brand {
+  font-family: 'Lora', serif;
+  font-size: 1.6rem;
+  padding: 0rem 1rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+.nav .nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #555;
+  padding: 0rem 1rem;
+  border-left: 3px solid transparent;
+  margin: .5rem 0rem;
+}
+.nav .nav-link.sub-sec {
+  margin-bottom: 0;
+}
+.nav .sub-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size:.9rem;
+  padding: 0rem 1rem;
+  margin-left:1.5rem;
+  display:block;
+}
+
+.nav .nav-link.active {
+  color: #8e8499;
+  border-left: 3px solid #8e8499;
+  font-weight:500;
+}
+.nav .nav-link:hover {
+  color: #333;
+}
+.nav .nav-link.active:hover {
+  color: #776e80;
+  border-left: 3px solid #776e80;
+}
+#main .row .col {
+  padding-top: 2rem;
+}
+#main .row .col-sm-3 {
+  height: 300px;
+}
+a, a:link, a:active {
+  color: #8e8499;
+}
+a:hover {
+  color: #776e80;
+  text-decoration: none;
+}
+
+
+
+
+.seccion {
+  font-family: 'Lora', serif;
+  margin-top: .5rem;
+}
+.seccion p {
+  font-family: 'Lora', serif;
+  font-size: 1.1rem;
+}
+/* .seccion h2::before {
+  display: block;
+  content: '';
+  background: #8e8499;
+  width: 30px;
+  height: 3px;
+  margin-bottom: .5rem;
+} */
+.seccion h2 {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.seccion#bio .cuadro{
+
+  margin: auto;
+  margin-bottom: 1rem;
+  max-width: 600px; 
+
+}
+
+.seccion#publicaciones .libro p,
+.seccion#prensa .nota p {
+  margin-bottom: 0;
+}
+.seccion#publicaciones .libro .titulo  {
+  font-size: 1.3rem;
+}
+
+.seccion#publicaciones .libro .datos {
+  font-style: italic;
+}
+.seccion#publicaciones .libro .link{
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.btn-normal {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  padding: .5rem 1.5rem;
+  background: #8e8499;
+  font-weight: 500;
+  color: #fff !important;
+  letter-spacing: .1rem;
+  font-size: .85rem;
+}
+.btn-normal:hover {
+  color: #fff;
+  background: #776e80;
+}
+.seccion#publicaciones .libro {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+h2 {
+  font-size: 1.4rem;
+}
+h4 {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+.seccion#contacto .redes a {
+  display: block;
+  margin-bottom: .6rem;
+}
+.seccion#contacto .redes a i {
+  font-size: 25px;
+  width: 25px;
+  margin-right: .5rem;
+  display: inline-block;
+}
+
+
+@media (max-width: 991.98px) { 
+
+}
+
+
+input.form-control {
+  border:0;
+  border-radius: 0;
+  border-bottom: 2px solid #bdbdbd;
+  padding-left:0;
+}
+
+textarea.form-control {
+  border-radius: 0;
+  border: 2px solid #bdbdbd;
+  height: 160px;
+}
+
+textarea:focus, input:focus{
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border-color: #8e8499 !important;
+}
+
+
+#home {
+  padding: .5rem 1rem;
+}
+#prensa .nota {
+  padding-bottom: 3rem; 
+}
+#prensa .fila::before {
+  display:block;
+  content: "";
+  background: #bdbdbd;
+  height: 2px;
+  width:3rem;
+  margin:auto;
+  margin-bottom: 1rem;
+}
+#prensa .nota .col-sm-4 .thumb {
+  background: #111;
+  text-align: center;
+}
+.seccion#prensa .nota .titulo {
+  font-size: 1.1rem;
+}
+.seccion#prensa .nota .desc {
+  font-size: .95rem;
+  font-style: italic;
+}
+.seccion#prensa .nota .fecha {
+  font-size: .85rem;
+  margin-top: .3rem;
+}
+.seccion#prensa .nota .link {
+  margin-top: 1rem;
+  font-size: .9rem;
+}
