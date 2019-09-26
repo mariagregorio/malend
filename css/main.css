@@ -140,6 +140,11 @@ h4 {
   font-style: italic;
   margin-bottom: 1rem;
 }
+h5 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
 .seccion#contacto .redes a {
   display: block;
   margin-bottom: .6rem;
@@ -176,8 +181,15 @@ textarea:focus, input:focus{
   box-shadow: none !important;
   border-color: #8e8499 !important;
 }
-
-
+p.sub-link {
+  margin-bottom:0;
+}
+.margin-bottom-small {
+  margin-bottom: .6rem;
+}
+.margin-top1 {
+  margin-top: 2rem;
+}
 #home {
   padding: .5rem 1rem;
 }
@@ -211,4 +223,10 @@ textarea:focus, input:focus{
 .seccion#prensa .nota .link {
   margin-top: 1rem;
   font-size: .9rem;
+}
+
+#periodista .item span{
+  padding-left: 10px;
+  font-style: italic;
+  font-size:.9rem;
 }
