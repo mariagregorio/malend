@@ -174,7 +174,9 @@ textarea.form-control {
   border: 2px solid #bdbdbd;
   height: 160px;
 }
-
+.contenido {
+  margin-bottom: 4rem;
+}
 textarea:focus, input:focus{
   outline: none !important;
   -webkit-box-shadow: none !important;
