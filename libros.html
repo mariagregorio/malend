@@ -15,24 +15,26 @@
   <div class="container-fluid">
     <div class="container" id="main">
       <div class="row">
-        <div class="col col-sm-3 sticky-top">
+        <div class="col-md-3 sticky-top">
           <ul class="nav flex-column">
             <a class="navbar-brand" href="index.html">Malén Denis</a>
-            <li class="nav-item"><a class="nav-link" href="bio.html">Bio</a></li>
-            <li class="nav-item">
-              <p class="nav-link active sub-sec">Publicaciones</p>
-              <p class="sub-link">Papel</p>
-              <a class="sub-link" href="libros.html">• Libros</a>
-              <a class="sub-link margin-bottom-small" href="compilaciones.html">• Compilaciones</a>
-              <a class="sub-link" href="publicaciones-online.html">Online</a>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="carrera-periodista.html">Carrera como periodista</a></li>
-            <li class="nav-item"><a class="nav-link" href="prensa.html">Prensa</a></li>
-            <li class="nav-item"><a class="nav-link" href="escritura-intimidad.html">Escritura e intimidad</a></li>
-            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+            <div class="menu-icon mobile"><i class="fas fa-bars"></i></div>
+            <div class="nav-items-cont">
+              <li class="nav-item"><a class="nav-link active" href="bio.html">Bio</a></li>
+              <li class="nav-item">
+                <p class="nav-link sub-sec">Publicaciones</p>
+                <a class="sub-link" href="libros.html">Libros</a>
+                <a class="sub-link" href="compilaciones.html">Compilaciones</a>
+                <a class="sub-link" href="publicaciones-online.html">Online</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="carrera-periodista.html">Carrera como periodista</a></li>
+              <li class="nav-item"><a class="nav-link" href="prensa.html">Prensa</a></li>
+              <li class="nav-item"><a class="nav-link" href="escritura-intimidad.html">Escritura e intimidad</a></li>
+              <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+            </div>
           </ul>
         </div>
-        <div class="col col-sm-9">
+        <div class="col-md-9">
           <div class="seccion" id="publicaciones">
             <h2>Publicaciones</h2>
             <div class="contenido">
@@ -105,5 +107,10 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script>
+    $(".menu-icon").click(function(){
+      $(".nav-items-cont").toggleClass("show");
+    });
+  </script>
 </body>
 </html>

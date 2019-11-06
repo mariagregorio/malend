@@ -51,10 +51,11 @@ button:focus {outline:0;}
   color: #776e80;
   border-left: 3px solid #776e80;
 }
-#main .row .col {
+#main .row .col-md-3, 
+#main .row .col-md-9 {
   padding-top: 2rem;
 }
-#main .row .col-sm-3 {
+#main .row .col-md-3 {
   height: 300px;
 }
 a, a:link, a:active {
@@ -231,4 +232,57 @@ p.sub-link {
   padding-left: 10px;
   font-style: italic;
   font-size:.9rem;
+}
+
+.desk {
+  display:block;
+}
+.mobile {
+  display: none;
+}
+.hidden {
+  display: none;
+}
+.show {
+  display: block !important;
+}
+
+@media screen and (max-width: 768px) {
+  .nav .navbar-brand {
+    padding: 0rem;
+    margin-bottom: 0rem;
+  }
+  .menu-icon {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .4rem;
+    color: #8e8499;
+  }
+  .menu-icon:hover {
+    color: #776e80;
+  }
+  .menu-icon i {
+    font-size: 22px;
+  }
+  .nav-items-cont {
+    display: none;
+    margin-top: 1rem;
+  }
+  #main .row .col-md-3 {
+    height: auto;
+  }
+  .mobile {
+    display: block;
+  }
+  .sticky-top {
+    position: relative;
+  }
+  .desk {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
 }
