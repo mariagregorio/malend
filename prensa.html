@@ -10,28 +10,13 @@
   <link rel="stylesheet" href="css/main.css">
   <title>Malén Denis</title>
 </head>
-<body>
+<body onload="loadMenu('prensa')">
+
     <div class="container-fluid">
         <div class="container" id="main">
           <div class="row">
-            <div class="col-md-3 sticky-top">
-              <ul class="nav flex-column">
-                <a class="navbar-brand" href="index.html">Malén Denis</a>
-                <div class="menu-icon mobile"><i class="fas fa-bars"></i></div>
-                <div class="nav-items-cont">
-                  <li class="nav-item"><a class="nav-link active" href="bio.html">Bio</a></li>
-                  <li class="nav-item">
-                    <p class="nav-link sub-sec">Publicaciones</p>
-                    <a class="sub-link" href="libros.html">Libros</a>
-                    <a class="sub-link" href="compilaciones.html">Compilaciones</a>
-                    <a class="sub-link" href="publicaciones-online.html">Online</a>
-                  </li>
-                  <li class="nav-item"><a class="nav-link" href="carrera-periodista.html">Carrera como periodista</a></li>
-                  <li class="nav-item"><a class="nav-link" href="prensa.html">Prensa</a></li>
-                  <li class="nav-item"><a class="nav-link" href="escritura-intimidad.html">Escritura e intimidad</a></li>
-                  <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-                </div>
-              </ul>
+            <div class="col-md-3 sticky-top" id="menuWrapper">
+              <!-- menu -->
             </div>
             <div class="col-md-9">
               <div class="seccion" id="prensa">
@@ -52,7 +37,7 @@
                             <p class="fecha">23 de mayo de 2013</p>
                             <p class="link">
                               <a class="btn-normal" href="https://www.pagina12.com.ar/diario/suplementos/no/12-6444-2013-05-23.html" target="_blank">Ver más</a>
-                            </p> 
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -67,17 +52,17 @@
                             <p class="fecha">2 de enero de 2015</p>
                             <p class="link">
                               <a class="btn-normal" href="http://lanan.com.ar/malen-denis/" target="_blank">Ver más</a>
-                            </p> 
+                            </p>
                           </div>
                         </div>
                       </div>
                     </div>
-      
+
                     <div class="row">
                       <div class="col-md-6 fila">
                         <div class="row nota">
                           <div class="col-sm-4">
-      
+
                           </div>
                           <div class="col-sm-8">
                             <p class="titulo">Algunas caras nuevas entre las chicas del barrio de la literatura</p>
@@ -85,7 +70,7 @@
                             <p class="fecha">12 de abril de 2015</p>
                             <p class="link">
                               <a class="btn-normal" href="http://www.infonews.com/nota/194114/algunas-caras-nuevas-entre-las-chicas-del" target="_blank">Ver más</a>
-                            </p> 
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -100,7 +85,7 @@
                             <p class="fecha">14 de octubre de 2015</p>
                             <p class="link">
                               <a class="btn-normal" href="http://lanan.com.ar/malen-denis/" target="_blank">Ver más</a>
-                            </p> 
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -117,7 +102,7 @@
                               <p class="fecha">Octubre de 2015</p>
                               <p class="link">
                                 <a class="btn-normal" href="https://sites.google.com/site/10preguntaspara1poeta/malen-denis" target="_blank">Ver más</a>
-                              </p> 
+                              </p>
                             </div>
                           </div>
                         </div>
@@ -132,7 +117,7 @@
                               <p class="fecha">9 de febrero de 2017</p>
                               <p class="link">
                                 <a class="btn-normal" href="https://www.pagina12.com.ar/19037-para-atravesar-lo-terrenal" target="_blank">Ver más</a>
-                              </p> 
+                              </p>
                             </div>
                           </div>
                         </div>
@@ -150,7 +135,7 @@
                                 <p class="fecha">27 de marzo de 2018</p>
                                 <p class="link">
                                   <a class="btn-normal" href="https://www.eternacadencia.com.ar/blog/libreria/nueve-preguntas/item/nueve-preguntas-a-malen-denis.html" target="_blank">Ver más</a>
-                                </p> 
+                                </p>
                               </div>
                             </div>
                           </div>
@@ -165,7 +150,7 @@
                                 <p class="fecha">1 de diciembre de 2017</p>
                                 <p class="link">
                                   <a class="btn-normal" href="https://www.laprimerapiedra.com.ar/2017/12/entrevista-malen-denis/" target="_blank">Ver más</a>
-                                </p> 
+                                </p>
                               </div>
                             </div>
                           </div>
@@ -183,7 +168,7 @@
                                 <p class="fecha">6 de febrero de 2019</p>
                                 <p class="link">
                                   <a class="btn-normal" href="https://indiehoy.com/libros/entrevista-malen-denis-la-escritura-una-forma-mudanza/" target="_blank">Ver más</a>
-                                </p> 
+                                </p>
                               </div>
                             </div>
                           </div>
@@ -198,7 +183,7 @@
                                 <p class="fecha">18 de marzo de 2019</p>
                                 <p class="link">
                                   <a class="btn-normal" href="https://www.laprimerapiedra.com.ar/2019/03/entrevista-malen-denis-litio-nueva-york/" target="_blank">Ver más</a>
-                                </p> 
+                                </p>
                               </div>
                             </div>
                           </div>
@@ -216,7 +201,7 @@
                                 <p class="fecha">3 de mayo de 2019</p>
                                 <p class="link">
                                   <a class="btn-normal" href="https://www.pagina12.com.ar/191403-no-somos-solo-nuestros-traumas" target="_blank">Ver más</a>
-                                </p> 
+                                </p>
                               </div>
                             </div>
                           </div>
@@ -231,7 +216,7 @@
                                 <p class="fecha">12 de junio de 2019</p>
                                 <p class="link">
                                   <a class="btn-normal" href="https://publicitarias.org/2019/06/12/malen-denis-a-una-mujer-era-muy-facil-negarle-el-valor-de-su-obra-literaria/" target="_blank">Ver más</a>
-                                </p> 
+                                </p>
                               </div>
                             </div>
                           </div>
@@ -249,7 +234,7 @@
                                 <p class="fecha">Julio 2019</p>
                                 <p class="link">
                                   <a class="btn-normal" href="https://www.mixcloud.com/AnimalBoyRadio/entrevista-a-mal%C3%A9n-denis/" target="_blank">Ver más</a>
-                                </p> 
+                                </p>
                               </div>
                             </div>
                           </div>
@@ -264,7 +249,7 @@
                                 <p class="fecha">6 de abril de 2017</p>
                                 <p class="link">
                                   <a class="btn-normal" href="http://estilo-nana.blogspot.com/2017/04/entrevistas-nana-malen-denis-tengo-una.html" target="_blank">Ver más</a>
-                                </p> 
+                                </p>
                               </div>
                             </div>
                           </div>
@@ -288,7 +273,7 @@
                                 <p class="fecha">Invierno, N° 5, 2015</p>
                                 <p class="link">
                                   <a class="btn-normal" href="https://issuu.com/campotraviesa/docs/invierno/44" target="_blank">Ver más</a>
-                                </p> 
+                                </p>
                               </div>
                             </div>
                           </div>
@@ -303,7 +288,7 @@
                                 <p class="fecha">15 de septiembre de 2016</p>
                                 <p class="link">
                                   <a class="btn-normal" href="http://www.revistachocha.com/2016/09/15/biblioteca-chocha-buscar-drogas-wikipedia-malen-denis/" target="_blank">Ver más</a>
-                                </p> 
+                                </p>
                               </div>
                             </div>
                           </div>
@@ -321,7 +306,7 @@
                                 <p class="fecha">20 de octubre de 2016</p>
                                 <p class="link">
                                   <a class="btn-normal" href="https://www.pagina12.com.ar/diario/suplementos/espectaculos/4-40328-2016-10-20.html" target="_blank">Ver más</a>
-                                </p> 
+                                </p>
                               </div>
                             </div>
                           </div>
@@ -336,7 +321,7 @@
                                 <p class="fecha">22 de noviembre de 2017</p>
                                 <p class="link">
                                   <a class="btn-normal" href="https://www.laprimerapiedra.com.ar/2017/11/brillante-de-malen-denis/" target="_blank">Ver más</a>
-                                </p> 
+                                </p>
                               </div>
                             </div>
                           </div>
@@ -348,7 +333,7 @@
 
 
 
-      
+
                   </div>
 
 
@@ -360,10 +345,6 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script>
-    $(".menu-icon").click(function(){
-      $(".nav-items-cont").toggleClass("show");
-    });
-  </script>
+  <script src="js/index.js"></script>
 </body>
 </html>

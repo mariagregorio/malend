@@ -11,30 +11,13 @@
   <link rel="stylesheet" href="css/main.css">
   <title>Malén Denis</title>
 </head>
-<body>
-
+<body onload="loadMenu('carrera-periodista')">
 
   <div class="container-fluid">
       <div class="container" id="main">
         <div class="row">
-          <div class="col-md-3 sticky-top">
-            <ul class="nav flex-column">
-              <a class="navbar-brand" href="index.html">Malén Denis</a>
-              <div class="menu-icon mobile"><i class="fas fa-bars"></i></div>
-              <div class="nav-items-cont">
-                <li class="nav-item"><a class="nav-link active" href="bio.html">Bio</a></li>
-                <li class="nav-item">
-                  <p class="nav-link sub-sec">Publicaciones</p>
-                  <a class="sub-link" href="libros.html">Libros</a>
-                  <a class="sub-link" href="compilaciones.html">Compilaciones</a>
-                  <a class="sub-link" href="publicaciones-online.html">Online</a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="carrera-periodista.html">Carrera como periodista</a></li>
-                <li class="nav-item"><a class="nav-link" href="prensa.html">Prensa</a></li>
-                <li class="nav-item"><a class="nav-link" href="escritura-intimidad.html">Escritura e intimidad</a></li>
-                <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-              </div>
-            </ul>
+          <div class="col-md-3 sticky-top" id="menuWrapper">
+            <!-- menu -->
           </div>
           <div class="col-md-9">
             <div class="seccion" id="periodista">
@@ -50,49 +33,49 @@
                 <p class="item">
                   <a href="https://indiehoy.com/apuntes/its-all-happening/" target="_blank">Ninguna piba nace groupie</a>
                   <span>8 de septiembre de 2017</span>
-                </p> 
+                </p>
 
                 <p class="item">
                   <a href="https://indiehoy.com/apuntes/origen-del-mal/" target="_blank">El origen del mal</a>
                   <span>20 de octubre de 2017</span>
-                </p> 
+                </p>
 
                 <p class="item">
                   <a href="https://indiehoy.com/apuntes/bienvenida-la-casa-munecas-otra-vez-balance-fin-ano-no-incluye-pareja/" target="_blank">Bienvenida a la casa de muñecas: otra vez un balance de fin de año que no incluye pareja</a>
                   <span>8 de diciembre de 2017</span>
-                </p> 
+                </p>
 
                 <p class="item">
                   <a href="https://indiehoy.com/apuntes/fabuloso-destino-una-misma/" target="_blank">El fabuloso destino de ser una misma</a>
                   <span>4 de agosto de 2017</span>
-                </p> 
+                </p>
 
                 <p class="item">
                   <a href="https://indiehoy.com/apuntes/carrie-escrita-almodovar/" target="_blank">Como si fuera Carrie, pero escrita por Almodóvar</a>
                   <span>30 de junio de 2017</span>
-                </p> 
+                </p>
 
                 <p class="item">
                   <a href="https://indiehoy.com/apuntes/amor-e-internet-vos-no-sos-quiero/" target="_blank">Amor e internet: Vos (no) sos el que quiero</a>
                   <span>9 de febrero de 2017</span>
-                </p> 
+                </p>
 
 
-                
+
 
                 <h4 class="margin-top1">Como especialista en música hecha por mujeres/ #ChicasPower</h4>
-                
+
                 <p class="item">
                   <a href="https://www.pagina12.com.ar/195564-back-to-back" target="_blank">Back to back</a>
                   <span>24 de mayo de 2019. Página 12</span>
-                </p> 
+                </p>
 
                 <p class="item">
                   <a href="https://www.kexp.org/read/2019/1/17/descubre-el-sonido-chicas-power-exclusive-playlist-from-author-malen-denis/" target="_blank">Descubre El Sonido: Chicas Power</a>
                   <span>17 de enero de 2019. El Sonido</span>
-                </p> 
-                
-                
+                </p>
+
+
 
                 <h4 class="margin-top1">Pijama Party</h4>
 
@@ -104,15 +87,15 @@
                 <p class="item">
                   <a href="https://malevamag.com/me-siento-una-fusion-entre-artista-y-astrologa-antonella-arismendi/" target="_blank">"Me siento una fusión entre artista y astróloga": Antonella Arismendi</a>
                   <span>15 de abril de 2013. Malevamag</span>
-                </p> 
+                </p>
 
                 <h4 class="margin-top1">Otros artículos de opinión, sobre la estética de la intimidad</h4>
 
                 <p class="item">
                   <a href="https://espanol.nylon.com/articles/espanol-analisis-malen-denis-crear-002" target="_blank">Crear para ser visto</a>
                   <span>26 de enero de 2016. Nylon</span>
-                </p> 
-                
+                </p>
+
 
               </div>
             </div>
@@ -124,10 +107,6 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script>
-    $(".menu-icon").click(function(){
-      $(".nav-items-cont").toggleClass("show");
-    });
-  </script>
+  <script src="js/index.js"></script>
 </body>
 </html>
