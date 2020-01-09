@@ -15,7 +15,7 @@ const loadMenu = (section) => {
           </li>
           <li class="nav-item"><a class="nav-link" href="carrera-periodista.html" id="liCarrera">Carrera como periodista</a></li>
           <li class="nav-item"><a class="nav-link" href="prensa.html" id="liPrensa">Prensa</a></li>
-          <li class="nav-item"><a class="nav-link" href="escritura-intimidad.html" id="liEscritura">Escritura e intimidad</a></li>
+          <li class="nav-item"><a class="nav-link" href="radio.html" id="liRadio">Radio</a></li>
           <li class="nav-item"><a class="nav-link" href="contacto.html" id="liContacto">Contacto</a></li>
         </div>
       </ul>
@@ -39,8 +39,8 @@ const loadMenu = (section) => {
         case "prensa":
             document.getElementById('liPrensa').classList.add('active');
             break;
-        case "escritura-intimidad":
-            document.getElementById('liEscritura').classList.add('active');
+        case "radio":
+            document.getElementById('liRadio').classList.add('active');
             break;
         case "contacto":
             document.getElementById('liContacto').classList.add('active');

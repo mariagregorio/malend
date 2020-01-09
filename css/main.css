@@ -51,7 +51,7 @@ button:focus {outline:0;}
   color: #776e80;
   border-left: 3px solid #776e80;
 }
-#main .row .col-md-3, 
+#main .row .col-md-3,
 #main .row .col-md-9 {
   padding-top: 2rem;
 }
@@ -95,7 +95,7 @@ a:hover {
 
   margin: auto;
   margin-bottom: 1rem;
-  max-width: 600px; 
+  max-width: 600px;
 
 }
 
@@ -158,10 +158,6 @@ h5 {
 }
 
 
-@media (max-width: 991.98px) { 
-
-}
-
 
 input.form-control {
   border:0;
@@ -197,9 +193,10 @@ p.sub-link {
   padding: .5rem 1rem;
 }
 #prensa .nota {
-  padding-bottom: 3rem; 
+  padding-bottom: 3rem;
 }
-#prensa .fila::before {
+#prensa .fila::before,
+#periodista .fila::before {
   display:block;
   content: "";
   background: #bdbdbd;
@@ -208,22 +205,27 @@ p.sub-link {
   margin:auto;
   margin-bottom: 1rem;
 }
-#prensa .nota .col-sm-4 .thumb {
+#prensa .nota .col-sm-4 .thumb,
+#periodista .nota .col-sm-4 .thumb {
   background: #111;
   text-align: center;
 }
-.seccion#prensa .nota .titulo {
+.seccion#prensa .nota .titulo,
+.seccion#periodista .nota .titulo {
   font-size: 1.1rem;
 }
-.seccion#prensa .nota .desc {
+.seccion#prensa .nota .desc,
+.seccion#periodista .nota .desc {
   font-size: .95rem;
   font-style: italic;
 }
-.seccion#prensa .nota .fecha {
+.seccion#prensa .nota .fecha,
+.seccion#periodista .nota .fecha {
   font-size: .85rem;
   margin-top: .3rem;
 }
-.seccion#prensa .nota .link {
+.seccion#prensa .nota .link,
+.seccion#periodista .nota .link {
   margin-top: 1rem;
   font-size: .9rem;
 }
@@ -246,7 +248,12 @@ p.sub-link {
 .show {
   display: block !important;
 }
-
+.img-text {
+  font-family: 'Lora', serif;
+  font-size: 1rem !important;
+  text-align: right;
+  margin-top: 5px;
+}
 @media screen and (max-width: 768px) {
   .nav .navbar-brand {
     padding: 0rem;
