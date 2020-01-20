@@ -10,6 +10,7 @@ const loadMenu = (section) => {
           <li class="nav-item">
             <p class="nav-link sub-sec" id="liPublicaciones">Publicaciones</p>
             <a class="sub-link" href="libros.html">Libros</a>
+            <a class="sub-link" href="plaquettes.html">Plaquettes</a>
             <a class="sub-link" href="compilaciones.html">Compilaciones</a>
             <a class="sub-link" href="publicaciones-online.html">Online</a>
           </li>
