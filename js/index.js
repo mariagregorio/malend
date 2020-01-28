@@ -13,10 +13,13 @@ const loadMenu = (section) => {
             <a class="sub-link" href="plaquettes.html">Plaquettes</a>
             <a class="sub-link" href="compilaciones.html">Compilaciones</a>
             <a class="sub-link" href="publicaciones-online.html">Online</a>
+            <a class="sub-link" href="textos-en-video.html">Textos en video</a>
           </li>
+          <li class="nav-item"><a class="nav-link" href="lecturas-e-intervenciones.html" id="liLecturas">Lecturas e intervenciones</a></li>
           <li class="nav-item"><a class="nav-link" href="carrera-periodista.html" id="liCarrera">Carrera como periodista</a></li>
           <li class="nav-item"><a class="nav-link" href="prensa.html" id="liPrensa">Prensa</a></li>
           <li class="nav-item"><a class="nav-link" href="radio.html" id="liRadio">Radio</a></li>
+          <li class="nav-item"><a class="nav-link" href="ensenanza.html" id="liEnsenanza">Enseñanza</a></li>
           <li class="nav-item"><a class="nav-link" href="contacto.html" id="liContacto">Contacto</a></li>
         </div>
       </ul>
@@ -34,6 +37,9 @@ const loadMenu = (section) => {
         case 'publicaciones':
             document.getElementById('liPublicaciones').classList.add('active');
             break;
+        case 'lecturas-e-intervenciones':
+            document.getElementById('liLecturas').classList.add('active');
+            break;
         case 'carrera-periodista':
             document.getElementById('liCarrera').classList.add('active');
             break;
@@ -42,6 +48,9 @@ const loadMenu = (section) => {
             break;
         case "radio":
             document.getElementById('liRadio').classList.add('active');
+            break;
+        case "ensenanza":
+            document.getElementById('liEnsenanza').classList.add('active');
             break;
         case "contacto":
             document.getElementById('liContacto').classList.add('active');
