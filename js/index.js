@@ -16,10 +16,10 @@ const loadMenu = (section) => {
             <a class="sub-link" href="textos-en-video.html">Textos en video</a>
           </li>
           <li class="nav-item"><a class="nav-link" href="lecturas-e-intervenciones.html" id="liLecturas">Lecturas e intervenciones</a></li>
-          <li class="nav-item"><a class="nav-link" href="carrera-periodista.html" id="liCarrera">Carrera como periodista</a></li>
-          <li class="nav-item"><a class="nav-link" href="prensa.html" id="liPrensa">Prensa</a></li>
+          <li class="nav-item"><a class="nav-link" href="carrera-periodista.html" id="liCarrera">Artículos y otros trabajos en periodismo</a></li>
           <li class="nav-item"><a class="nav-link" href="radio.html" id="liRadio">Radio</a></li>
           <li class="nav-item"><a class="nav-link" href="ensenanza.html" id="liEnsenanza">Enseñanza</a></li>
+          <li class="nav-item"><a class="nav-link" href="prensa.html" id="liPrensa">Prensa</a></li>
           <li class="nav-item"><a class="nav-link" href="contacto.html" id="liContacto">Contacto</a></li>
         </div>
       </ul>

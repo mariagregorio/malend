@@ -147,6 +147,8 @@ a:hover {
   color: #fff !important;
   letter-spacing: .1rem;
   font-size: .85rem;
+  border: 0;
+  cursor: pointer;
 }
 .btn-normal:hover {
   color: #fff;
