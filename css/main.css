@@ -1,9 +1,14 @@
 body {
   color: #222;
 }
-
+.podcast iframe body {
+  overflow: hidden;
+}
 button:focus {outline:0;}
-
+.center-img {
+  text-align: center;
+  margin: 0;
+}
 .navbar-light .navbar-toggler {
   color: rgba(0,0,0,.5);
   border:0;
